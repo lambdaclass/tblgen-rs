@@ -12,15 +12,16 @@ documentation = "https://danacus.gitlab.io/tblgen-rs/tblgen/"
 exclude = ["doc/"]
 
 [features]
-default = ["llvm18-0"]
+default = ["llvm19-0"]
 llvm16-0 = []
 llvm17-0 = []
 llvm18-0 = []
+llvm19-0 = []
 
 [dependencies]
 thiserror = "1.0.61"
 paste = "1.0.15"
 
 [build-dependencies]
-bindgen = "0.69.4"
+bindgen = "0.70.1"
 cc = "1.0.98"
